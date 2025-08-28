@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation1 {
+  background: rgba(245, 245, 247, 0.8);
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.navigation2 {
+  background-color: #fff;
+}
+.text {
+  display: flex;
+  height: 73px;
+  padding: 18px 31px;
+}
+.navigation3 {
+  width: 390px;
+  height: 500px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.navigation3 {
+  background-image: url(./cover.png);
+  background-size: cover;
+}
+.textall {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.pro {
+  padding-top: 36px;
+}
+.text1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.text2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 16px;
+}
+.button1 {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.button2 {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+}
+
+.p1 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 9px;
+  padding-top: 7px;
+}
+.p2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 7px;
+}
+.section2 {
+  height: 12px;
+  width: 390px;
+  gap: 12px;
+  background: #fff;
+}
+.section3 {
+  background-image: url(./cover2.png);
+  background-size: cover;
+  height: 500px;
+  gap: 12px;
+}
+.section4 {
+  background-image: url(./cover3.png);
+  background-size: cover;
+  height: 500px;
+}
+.navigation11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 36px;
+}
+.ipad {
+  width: 180px;
+  height: 41.86px;
+  aspect-ratio: 43/10;
+}
+.two {
+  font-size: 18px;
+  font-weight: 400px;
+  color: black;
+}
+.textt {
+  display: flex;
+  flex-direction: row;
+}

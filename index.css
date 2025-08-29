@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -24,23 +25,21 @@
   padding: 18px 31px;
 }
 .navigation3 {
-  width: 390px;
+  background-image: url(./cover.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 12px;
   height: 500px;
-  flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: end;
-}
-.navigation3 {
-  background-image: url(./cover.png);
-  background-size: cover;
 }
 .textall {
   display: flex;
   flex-direction: column;
   color: #fff;
   text-align: center;
-
+  padding-bottom: 50px;
 }
 .pro {
   padding-top: 36px;
@@ -65,18 +64,22 @@
   height: 36px;
   border-radius: 999px;
   background: #0071e3;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button3 {
+  width: 150px;
+  height: 36px;
 }
 .button2 {
   width: 66px;
   height: 36px;
   border-radius: 999px;
   border: 1px solid #2997ff;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .p1 {
@@ -86,22 +89,14 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .p2 {
-  color: #2997FF;
+  color: #2997ff;
   font-size: 14px;
   font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-.section2 {
-  height: 12px;
-  width: 390px;
-  gap: 12px;
-  background: #fff;
 }
 .section3 {
   background-image: url(./cover2.png);
@@ -135,14 +130,20 @@ align-items: center;
   display: flex;
   flex-direction: row;
 }
-.hello{
-  background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-padding-top:260px ;
+.hello {
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 290px;
 }
-.section5{
+.section5 {
   background-image: url(./cover4.png);
   background-size: cover;
   height: 500px;
@@ -151,69 +152,249 @@ padding-top:260px ;
   margin-top: 22px;
   justify-content: center;
 }
-.air{
+.air {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
 }
-.inconic{
+.inconic {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
   padding-left: 75px;
   padding-right: 74px;
 }
-.air1{
+.air1 {
   width: 200px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
-.section6{
+.tell {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 50px;
+}
+.section6 {
   background-image: url(./cover5.png);
   background-size: cover;
   height: 500px;
   margin-top: 12px;
 }
-.h2{
+.h2 {
   color: black;
   padding-top: 46px;
+  padding-left: 66px;
+  padding-right: 67px;
 }
-.watch{
+.watch {
   font-size: 28px;
   font-weight: 700;
 }
-.seies{
+.seies {
   font-size: 13px;
   font-weight: 700;
 }
-.Thinstant{
-  font-size:18px ;
+.Thinstant {
+  font-size: 18px;
   font-weight: 400;
 }
-.apple{
+.apple {
   width: 22px;
   height: 27px;
 }
-.apple1{
+.apple1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.section7{
+.section7 {
   background-image: url(./cover6.png);
   background-size: cover;
   height: 500px;
   margin-top: 12px;
- 
 }
-.mac{
+.mac {
   font-size: 30px;
   font-weight: 700;
 }
-.lean{
+.lean {
   font-size: 18px;
   font-weight: 400;
 }
+.section8 {
+  background-image: url(./cover7.png);
+  background-size: cover;
+  height: 500px;
+  margin-top: 12px;
+}
+.for {
+  font-size: 30px;
+  font-weight: 700;
+}
+.hardware {
+  font-size: 18px;
+  font-weight: 400;
+}
+.section9 {
+  background-image: url(./cover8.png);
+  background-size: cover;
+  height: 500px;
+  margin-top: 12px;
+}
+.carrier {
+  font-size: 30px;
+  font-weight: 700;
+}
+.get {
+  font-size: 18px;
+  font-weight: 400;
+}
+.h5 {
+  display: flex;
+  flex-direction: column;
+  color: #0a0505;
+  text-align: center;
+  padding-top: 301px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.section10 {
+  background-image: url(./cover9.png);
+  background-size: cover;
+  height: 500px;
+  margin-top: 12px;
+}
+.trade {
+  font-size: 28px;
+  font-weight: 700;
+}
+.section11 {
+  height: 500px;
+  overflow: scroll;
+  display: flex;
+  gap: 10px;
+}
+.section12 {
+  height: 39px;
+  background-color: #fff;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+}
+.box1 {
+  background-color: #0a0505;
+}
+.box2 {
+  background-color: rgb(69, 69, 69);
+}
+.box3 {
+  background-color: #100808;
+}
+.section13 {
+  height: 500px;
+}
+.bck {
+  width: 600px;
+  height: 134px;
+}
+.bck1 {
+  background-color: #6529cf;
+}
+.bck2 {
+  background-color: darkgreen;
+}
+.over {
+  overflow: scroll;
+  display: flex;
+  gap: 10px;
+}
+.end {
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
 
-  
-
+@media (min-width: 768px) {
+  .navigation3 {
+    background-image: url(./backg3.jpg);
+    height: 650px;
+    width: 768px;
+    align-items: start;
+  }
+  .textall {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    padding-top: 58px;
+  }
+  .section3 {
+    background-image: url(./backg4.png);
+    height: 650px;
+    width: 768px;
+    align-items: start;
+  }
+  .section4 {
+    background-image: url(backg5.png);
+    height: 650px;
+    width: 768px;
+    align-items: start;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .navigation11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .pro {
+    padding-top: 58px;
+  }
+  .bigpod {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .section5 {
+    width: 50%;
+    margin-top: 12px;
+  }
+  .section6 {
+    width: 50%;
+    margin-top: 12px;
+  }
+  .watch1 {
+    color: #100808;
+  }
+  .bigmac {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .section7 {
+    width: 50%;
+  }
+  .section8 {
+    width: 50%;
+  }
+  .h2 {
+    color: black;
+    padding-top: 46px;
+    padding-left: 66px;
+    padding-right: 67px;
+  }
+}

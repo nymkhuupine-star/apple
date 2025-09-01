@@ -19,6 +19,9 @@
 .navigation2 {
   background-color: #fff;
 }
+.navi {
+  display: none;
+}
 .text {
   display: flex;
   height: 73px;
@@ -275,6 +278,16 @@
   display: flex;
   gap: 10px;
 }
+.link11 {
+  height: 500px;
+  overflow: scroll;
+  display: flex;
+  gap: 10px;
+}
+.scroll1 {
+  display: none;
+}
+
 .section12 {
   height: 39px;
   background-color: #fff;
@@ -299,20 +312,44 @@
 }
 .section13 {
   height: 500px;
+  overflow: scroll;
 }
-.bck {
-  width: 600px;
-  height: 134px;
+.logosize {
+  width: 61px;
+  height: 10.8px;
+  display: flex;
+  padding-left: 220px;
+  padding-top: 110px;
 }
+
 .bck1 {
   background-color: #6529cf;
+  width: 300px;
+  height: 134px;
 }
 .bck2 {
   background-color: darkgreen;
+  width: 300px;
+  height: 134px;
+}
+.bck3 {
+  background-color: black;
+  width: 300px;
+  height: 134px;
+}
+.bck4 {
+  background-color: darkorange;
+  width: 300px;
+  height: 134px;
+}
+.bck5 {
+  background-color: darkorchid;
+  width: 300px;
+  height: 134px;
 }
 .over {
-  overflow: scroll;
   display: flex;
+  width: fit-content;
   gap: 10px;
 }
 .end {
@@ -326,7 +363,7 @@
   .navigation3 {
     background-image: url(./backg3.jpg);
     height: 650px;
-    width: 768px;
+    width: 100%;
     align-items: start;
   }
   .textall {
@@ -339,13 +376,13 @@
   .section3 {
     background-image: url(./backg4.png);
     height: 650px;
-    width: 768px;
+    width: 100%;
     align-items: start;
   }
   .section4 {
     background-image: url(backg5.png);
     height: 650px;
-    width: 768px;
+    width: 100%;
     align-items: start;
   }
   .button {
@@ -397,4 +434,131 @@
     padding-left: 66px;
     padding-right: 67px;
   }
+  .bigcarrier {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .section9 {
+    width: 50%;
+  }
+  .section10 {
+    width: 50%;
+  }
+  .scroll1 {
+    display: block;
+    overflow: scroll;
+    display: flex;
+    gap: 10px;
+  }
+  .link11 {
+    display: none;
+  }
+  .section11 {
+    overflow: scroll;
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .section13 {
+    height: 500px;
+  }
+
+  .bck1 {
+    background-color: #6529cf;
+    width: 300px;
+    height: 134px;
+  }
+  .bck2 {
+    background-color: darkgreen;
+    width: 300px;
+    height: 134px;
+  }
+  .bck3 {
+    background-color: black;
+    width: 300px;
+    height: 134px;
+  }
+  .bck4 {
+    background-color: darkorange;
+    width: 300px;
+    height: 134px;
+  }
+  .bck5 {
+    background-color: darkorchid;
+    width: 300px;
+    height: 134px;
+  }
+  .over {
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+  }
+  .logosize {
+    width: 61px;
+    height: 10.8px;
+    display: flex;
+    padding-left: 220px;
+    padding-top: 110px;
+  }
+}
+@media (min-width: 1024px) {
+  .navigation3 {
+    background-image: url(./webcover.png);
+    height: 692px;
+    width: 100%;
+    align-items: start;
+  }
+  .imgsize4 {
+    display: none;
+  }
+  .navi {
+    display: flex;
+    gap: 24px;
+  }
+  .navigation1 {
+    background: rgba(245, 245, 247, 0.8);
+    display: flex;
+    height: 48px;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 24px;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 {
+    background-image: url(./webcover2.png);
+    height: 692px;
+    width: 100%;
+    align-items: start;
+  }
+  .section4 {
+    background-image: url(./webcover3.png);
+    height: 692px;
+    width: 100%;
+    align-items: start;
+  }
+}
+.button-last1 {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-last2 {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #fbfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

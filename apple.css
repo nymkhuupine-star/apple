@@ -32,6 +32,7 @@
   flex-direction: row;
   gap: 20px;
   padding-top: 60px;
+  padding-bottom: 24px;
 }
 .header2 {
   width: 1024px;
@@ -109,4 +110,128 @@
   font-size: 24px;
   font-weight: 700;
   color: #6e6e73;
+}
+.photo1 {
+  background-image: url(./photo1.jpg);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  gap: 12px;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.photo2 {
+  background-image: url(./photo2.jpg);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  gap: 12px;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.photo3 {
+  background-image: url(./photo3.jpg);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  gap: 12px;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.photo4 {
+  background-image: url(./photo4.jpg);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  gap: 12px;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.photos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: scroll;
+}
+.applein {
+  font-size: 12px;
+  font-weight: 700;
+  color: #b64400;
+}
+.mini {
+  font-size: 26px;
+  font-weight: 700;
+}
+.from {
+  font-size: 18px;
+  font-weight: 400;
+}
+.photo5 {
+  background-image: url(./photo4.jpg);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  gap: 12px;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.photo6 {
+  background-image: url(./photo5.jpg);
+  width: 480px;
+  height: 500px;
+}
+.photo7 {
+  background-image: url(./photo6.jpg);
+  width: 400px;
+  height: 500px;
+}
+.photo8 {
+  background-image: url(./photo7.jpg);
+  width: 400px;
+  height: 500px;
+}
+.photo9 {
+  background-image: url(./photo8.jpg);
+  width: 400px;
+  height: 500px;
+}
+.photo10 {
+  background-image: url(./photo9.jpg);
+  width: 400px;
+  height: 500px;
+}
+.photo11 {
+  background-image: url(./photo10.jpg);
+  width: 400px;
+  height: 500px;
+}
+.photo12 {
+  background-image: url(./photo11.jpg);
+  width: 400px;
+  height: 500px;
+}
+.pht {
+  width: 230px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  gap: 12px;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.container {
+  background-color: rgba(245, 245, 247, 0.8);
+  background-position: center;
+  background-size: cover;
+}
+.photos2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: scroll;
 }

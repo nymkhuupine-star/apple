@@ -33,6 +33,8 @@
   gap: 20px;
   padding-top: 60px;
   padding-bottom: 24px;
+  display: flex;
+  align-items: start;
 }
 .header2 {
   width: 1024px;
@@ -152,10 +154,12 @@
   padding-top: 31px;
 }
 .photos {
+  width: fit-content;
   display: flex;
   flex-direction: row;
   gap: 20px;
   overflow: scroll;
+  border-radius: 20px;
 }
 .applein {
   font-size: 12px;
@@ -170,68 +174,291 @@
   font-size: 18px;
   font-weight: 400;
 }
-.photo5 {
-  background-image: url(./photo4.jpg);
-  width: 480px;
-  height: 500px;
-  background-position: center;
-  background-size: cover;
-  gap: 12px;
-  padding-left: 30px;
-  padding-top: 31px;
-}
-.photo6 {
-  background-image: url(./photo5.jpg);
-  width: 480px;
-  height: 500px;
-}
-.photo7 {
-  background-image: url(./photo6.jpg);
-  width: 400px;
-  height: 500px;
-}
-.photo8 {
-  background-image: url(./photo7.jpg);
-  width: 400px;
-  height: 500px;
-}
-.photo9 {
-  background-image: url(./photo8.jpg);
-  width: 400px;
-  height: 500px;
-}
-.photo10 {
-  background-image: url(./photo9.jpg);
-  width: 400px;
-  height: 500px;
-}
-.photo11 {
-  background-image: url(./photo10.jpg);
-  width: 400px;
-  height: 500px;
-}
-.photo12 {
-  background-image: url(./photo11.jpg);
-  width: 400px;
-  height: 500px;
-}
-.pht {
-  width: 230px;
-  height: 230px;
-  background-position: center;
-  background-size: cover;
-  gap: 12px;
-  padding-left: 30px;
-  padding-top: 31px;
-}
 .container {
   background-color: rgba(245, 245, 247, 0.8);
   background-position: center;
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 .photos2 {
+  width: fit-content;
   display: flex;
   flex-direction: row;
   gap: 20px;
-  overflow: scroll;
+  border-radius: 20px;
+}
+.border1 {
+  background-image: url(./photo5.jpg);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.border2 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.make {
+  font-size: 24px;
+  font-weight: 700;
+}
+.free {
+  color: #b64400;
+  font-size: 12px;
+  font-weight: 700;
+}
+.max {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+.money {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.photo6 {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.photo7 {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.photos13 {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.photo9 {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.textsize {
+  width: 257px;
+  padding-top: 58px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+.max {
+  padding-top: 10px;
+}
+.make {
+  padding-left: 30px;
+  padding-top: 53px;
+}
+.border3 {
+  background-image: url(./photos1.png);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos14 {
+  background-image: url(./photos14.png);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.button {
+  width: 313px;
+  height: 240px;
+  background-color: #fefcff;
+  border-radius: 18px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.bigbutton {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.buttons1 {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: fit-content;
+}
+.photos15 {
+  background-image: url(./photos15.png);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos16 {
+  background-image: url(./photos16.jpg);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.p8 {
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  width: 238px;
+}
+.getgifts {
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 145px;
+}
+.appletrade {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.photos20 {
+  background-image: url(./photos20.png);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos18 {
+  background-image: url(./photos18.png);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos19 {
+  background-image: url(./photos19.png);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos17 {
+  background-image: url(./photos17.png);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos21 {
+  background-image: url(./photos21.png);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos22 {
+  background-image: url(./photos22.png);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos23 {
+  background-image: url(./photos23.png);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos24 {
+  background-image: url(./photos24.png);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.photos25 {
+  background-image: url(./photos25.jpg);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.p9 {
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+.p10 {
+  color: #fefcff;
+}
+.p11 {
+  padding-top: 10px;
+}
+.border {
+  border-radius: 999px;
+  border: 1px solid #1d1d1f;
+  width: 125px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+.quick {
+  font-size: 26px;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-left: 30px;
 }

@@ -400,6 +400,7 @@
     width: 100%;
     align-items: start;
   }
+
   .section4 {
     background-image: url(backg5.png);
     height: 650px;
@@ -820,9 +821,4 @@
     justify-content: end;
     flex-direction: column;
   }
-  .fit {
-    display: flex;
-    justify-content: end;
-  }
 }
-/*  Apple web store*/
